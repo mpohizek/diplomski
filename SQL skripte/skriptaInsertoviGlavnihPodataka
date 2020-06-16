@@ -1,0 +1,79 @@
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '00000000000', 'Mirjana', 'Pohižek', 'Gornja Šemnica', '188', 49232, '0038549100200', '00385994105312', 'mpohizek@gmail.com', 1, '000000001', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '11111111111', 'Pero', 'Perić', 'Braće Radića', '18', 42000, '0038542123001', '00385998750022', 'pperic@gmail.com', 1, '000000002', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '22222222222', 'Ivana', 'Horvat', 'Gajeva', '23', 49000, '0038549200300', '00385914521000', 'ihorvat@gmail.com', 1, '000000003', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '33333333333', 'Marko', 'Matić', 'Pavlinska', '7', 42000, '0038542300400', '00385920024587', 'mmatic@gmail.com', 1, '000000004', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '44444444444', 'Jane', 'Doe', 'Ilica', '55b', 10000, '0038515552145', '00385915400333', 'jane.doe@gmail.com', 1, '000000005', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '55555555555', 'Marica', 'Marić', 'Ulica lipa', '101', 10000, '0038514444222', '00385926354002', 'marica.maric@gmail.com', 1, '000000006', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '66666666666', 'Fran', 'Franić', 'Savska cesta', '2', 10000, '0038511411254', '00385914100023', 'fran.franic@gmail.com', 1, '000000007', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '77777777777', 'Franjo', 'Kos', 'Varaždinska', '99', 43000, '0038543970870', '0038598352164', 'fkos@gmail.com', 1, '000000008', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '88888888888', 'Milena', 'Zec', 'Kralja Tomislava', '24', 48000, '0038548451600', '00385956333111', 'milena.zec@gmail.com', 1, '000000009', NULL, SYSDATE);
+INSERT INTO evidencijaOsoba VALUES (evidencijaOsoba_SEQ.NEXTVAL, '99999999999', 'Ivo', 'Ivić', 'Preradovićeva', '31', 42000, '0038542820348', '00385911212123', 'ivo.ivic@gmail.com', 1, '000000010', NULL, SYSDATE);
+
+INSERT INTO evidencijaDjelatnikaBanke VALUES (evidencijaDjelatnikaBanke_SEQ.NEXTVAL, 1, 'Voditeljica poslovnice', 'mpohizek', 'pswd!01', NULL, SYSDATE);
+INSERT INTO evidencijaDjelatnikaBanke VALUES (evidencijaDjelatnikaBanke_SEQ.NEXTVAL, 2, 'Osobni bankar', 'pperic', 'pswd!02', NULL, SYSDATE);
+
+INSERT INTO klijent VALUES (klijent_SEQ.NEXTVAL, '54876332154', '00000001', 'ABC Technologies d.d.', 'Frankopanska', '40', 49000, 61, '01', '0038549490150', '00385991000444', 'financije@abcTechnologies.hr', 1, NULL, SYSDATE);
+INSERT INTO klijent VALUES (klijent_SEQ.NEXTVAL, '02115423621', '00000002', 'XYZ Transporti d.o.o.', 'Prometna ulica', '3', 49000, 61, '01', '0038549490023', '0038598999444', 'racunovodstvo@xyzTransporti.hr', 1, NULL, SYSDATE);
+INSERT INTO klijent VALUES (klijent_SEQ.NEXTVAL, '45622222222', '00000003', 'Agri d.d.', 'Stjepana Radića', '11', 42000, 61, '01', '0038542340570', '00385914023007', 'financije@agri.hr', 1, NULL, SYSDATE);
+
+INSERT INTO racun VALUES (racun_SEQ.NEXTVAL, 'HR5023400091154120012', 1, 'REDPR', 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 0, 1, 0, 0, NULL, SYSDATE);
+INSERT INTO racun VALUES (racun_SEQ.NEXTVAL, 'HR5123400091163512541', 1, 'REDPR', 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 0, 2, 0, 0, NULL, SYSDATE);
+INSERT INTO racun VALUES (racun_SEQ.NEXTVAL, 'HR5223400091163001201', 2, 'REDPR', 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 0, 3, 0, 0, NULL, SYSDATE);
+INSERT INTO racun VALUES (racun_SEQ.NEXTVAL, 'HR5323400091102133652', 2, 'REDPR', 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 0, 4, 0, 0, NULL, SYSDATE);
+INSERT INTO racun VALUES (racun_SEQ.NEXTVAL, 'HR5423400091174003362', 3, 'REDPR', 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 0, 1, 0, 0, NULL, SYSDATE);
+INSERT INTO racun VALUES (racun_SEQ.NEXTVAL, 'HR5523400091163521421', 3, 'REDPR', 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 0, 2, 0, 0, NULL, SYSDATE);
+INSERT INTO racun VALUES (racun_SEQ.NEXTVAL, 'HR5623400091163520120', 3, 'REDPR', 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 0, 3, 0, 0, NULL, SYSDATE);
+
+INSERT INTO usluga VALUES (usluga_SEQ.NEXTVAL, 1, 1, 1, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, NULL, SYSDATE);
+INSERT INTO usluga VALUES (usluga_SEQ.NEXTVAL, 1, 2, 1, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, NULL, SYSDATE);
+INSERT INTO usluga VALUES (usluga_SEQ.NEXTVAL, 2, 3, 1, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, NULL, SYSDATE);
+INSERT INTO usluga VALUES (usluga_SEQ.NEXTVAL, 2, 4, 1, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, NULL, SYSDATE);
+INSERT INTO usluga VALUES (usluga_SEQ.NEXTVAL, 3, 5, 1, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, NULL, SYSDATE);
+INSERT INTO usluga VALUES (usluga_SEQ.NEXTVAL, 3, 6, 1, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, NULL, SYSDATE);
+INSERT INTO usluga VALUES (usluga_SEQ.NEXTVAL, 3, 7, 1, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, NULL, SYSDATE);
+
+
+INSERT INTO cjenikIzvoda VALUES (1, 2, 8, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (2, 1, 5, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (2, 2, 10, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (2, 3, 5, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (2, 5, 5, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (3, 1, 5, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (3, 3, 5, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (3, 5, 5, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (4, 4, 10, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (5, 1, 6, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (5, 3, 6, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (6, 1, 5, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (6, 3, 5, NULL, SYSDATE);
+
+INSERT INTO cjenikIzvoda VALUES (6, 5, 5, NULL, SYSDATE);
+
+INSERT INTO klijentEvidencijaOsoba VALUES (klijentEvidencijaOsoba_SEQ.NEXTVAL, 1, 3, 3, NULL, SYSDATE);
+INSERT INTO klijentEvidencijaOsoba VALUES (klijentEvidencijaOsoba_SEQ.NEXTVAL, 2, 4, 3, NULL, SYSDATE);
+INSERT INTO klijentEvidencijaOsoba VALUES (klijentEvidencijaOsoba_SEQ.NEXTVAL, 2, 5, 3, NULL, SYSDATE);
+INSERT INTO klijentEvidencijaOsoba VALUES (klijentEvidencijaOsoba_SEQ.NEXTVAL, 3, 6, 3, NULL, SYSDATE);
+
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 1, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'ihorvat', 'pswd!001', NULL, SYSDATE);
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 2, 1, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'ihorvat', 'pswd!001', NULL, SYSDATE);
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 3, 2, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'mmatic', 'pswd!002', NULL, SYSDATE);
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 3, 3, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'jdoe', 'pswd!003', NULL, SYSDATE);
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 4, 2, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'mmatic', 'pswd!002', NULL, SYSDATE);
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 4, 3, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'jdoe', 'pswd!003', NULL, SYSDATE);
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 5, 4, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'mmaric', 'pswd!004', NULL, SYSDATE);
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 6, 4, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'mmaric', 'pswd!004', NULL, SYSDATE);
+INSERT INTO korisnikUsluge VALUES (korisnikUsluge_SEQ.NEXTVAL, 7, 4, TO_DATE('15/06/2020', 'dd/mm/yyyy'), NULL, 1, 'mmaric', 'pswd!004', NULL, SYSDATE);
+
+COMMIT;

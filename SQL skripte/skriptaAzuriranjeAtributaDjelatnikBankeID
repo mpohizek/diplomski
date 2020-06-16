@@ -1,0 +1,24 @@
+UPDATE sifarnikVrsteOdnosa SET djelatnikBankeID=1;
+UPDATE sifarnikIdentifikacijskihIsprava SET djelatnikBankeID=1;
+UPDATE sifarnikMjesta SET djelatnikBankeID=1;
+UPDATE sifarnikVrsteUsluga SET djelatnikBankeID=1;
+UPDATE sifarnikDrzava SET djelatnikBankeID=1;
+UPDATE sifarnikSektora SET djelatnikBankeID=1;
+UPDATE evidencijaDjelatnikaBanke SET djelatnikBankeID_FK=1;
+UPDATE sifarnikAktivnosti SET djelatnikBankeID=1;
+UPDATE sifarnikTipovaRacuna SET djelatnikBankeID=1;
+UPDATE sifarnikPeriodikaIzvoda SET djelatnikBankeID=1;
+UPDATE sifarnikFormataIzvoda SET djelatnikBankeID=1;
+UPDATE sifarnikKanalaIzvoda SET djelatnikBankeID=1;
+UPDATE sifarnikValuta SET djelatnikBankeID=1;
+UPDATE evidencijaOsoba SET djelatnikBankeID=1;
+UPDATE klijent SET djelatnikBankeID=1;
+UPDATE sifarnikVrsteBankovnihRacuna SET djelatnikBankeID=1;
+UPDATE cjenikIzvoda SET djelatnikBankeID=1;
+UPDATE klijentEvidencijaOsoba SET djelatnikBankeID=1;
+UPDATE korisnikUsluge SET djelatnikBankeID=1;
+UPDATE usluga SET djelatnikBankeID=1;
+UPDATE racun SET djelatnikBankeID=1;
+
+COMMIT;
+

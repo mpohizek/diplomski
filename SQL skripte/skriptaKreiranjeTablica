@@ -1,0 +1,288 @@
+CREATE SEQUENCE evidencijaDjelatnikaBanke_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE evidencijaOsoba_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE klijent_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE klijentEvidencijaOsoba_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE korisnikUsluge_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE racun_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE racunKreiraniIzvod_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE racunUgovoreniIzvod_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE sifarnikDrzava_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE sifarnikFormataIzvoda_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE sifarnikIdentifikacijskihIsprava_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE sifarnikKanalaIzvoda_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE sifarnikPeriodikaIzvoda_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE sifarnikVrsteOdnosa_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE sifarnikVrsteUsluga_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE SEQUENCE usluga_SEQ START WITH 1 INCREMENT BY 1 MINVALUE 1 CACHE 20;
+CREATE TABLE cjenikIzvoda (
+  sifraFormataIzvoda number(10) NOT NULL, 
+  sifraKanalaIzvoda  number(10) NOT NULL, 
+  cijena             float(10) NOT NULL, 
+  djelatnikBankeID   number(10), 
+  datumPromjene      date NOT NULL, 
+  PRIMARY KEY (sifraFormataIzvoda, 
+  sifraKanalaIzvoda));
+CREATE TABLE evidencijaDjelatnikaBanke (
+  djelatnikBankeID    number(10) NOT NULL, 
+  osobaID             number(10) NOT NULL, 
+  radnoMjesto         varchar2(100) NOT NULL, 
+  korisnickoIme       varchar2(100) NOT NULL UNIQUE, 
+  lozinka             varchar2(100) NOT NULL, 
+  djelatnikBankeID_FK number(10), 
+  datumPromjene       date NOT NULL, 
+  PRIMARY KEY (djelatnikBankeID));
+CREATE TABLE evidencijaOsoba (
+  osobaID                      number(10) NOT NULL, 
+  OIB                          varchar2(11) NOT NULL UNIQUE, 
+  ime                          varchar2(50) NOT NULL, 
+  prezime                      varchar2(50) NOT NULL, 
+  ulica                        varchar2(255) NOT NULL, 
+  kbr                          varchar2(5) NOT NULL, 
+  brPoste                      number(5) NOT NULL, 
+  telefon                      varchar2(255), 
+  mobitel                      varchar2(255), 
+  email                        varchar2(100), 
+  sifraIdentifikacijskeIsprave number(10) NOT NULL, 
+  brojIdentifikacijskeIsprave  varchar2(50) NOT NULL, 
+  djelatnikBankeID             number(10), 
+  datumPromjene                date NOT NULL, 
+  PRIMARY KEY (osobaID));
+CREATE TABLE izvodValute (
+  kreiraniIzvodID number(10) NOT NULL, 
+  sifraValute     varchar2(3) NOT NULL, 
+  PRIMARY KEY (kreiraniIzvodID, 
+  sifraValute));
+CREATE TABLE klijent (
+  klijentID        number(10) NOT NULL, 
+  OIB              varchar2(11) NOT NULL UNIQUE, 
+  MBS              varchar2(8) NOT NULL UNIQUE, 
+  naziv            varchar2(255) NOT NULL, 
+  ulica            varchar2(255) NOT NULL, 
+  kbr              varchar2(5) NOT NULL, 
+  brPoste          number(5) NOT NULL, 
+  sifraDrzave      number(10) NOT NULL, 
+  sifraSektora     varchar2(2) NOT NULL, 
+  telefon          varchar2(50), 
+  mobitel          varchar2(50), 
+  email            varchar2(100), 
+  sifraAktivnosti  number(1) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (klijentID));
+COMMENT ON COLUMN klijent.MBS IS 'Matični broj subjekta
+- obavezan za unos kad je sektor = 41 (obrtnici)';
+COMMENT ON COLUMN klijent.datumPromjene IS 'dohvaćanje preko SYSDATE from dual';
+CREATE TABLE klijentEvidencijaOsoba (
+  klijentOsobaID   number(10) NOT NULL, 
+  klijentID        number(10) NOT NULL, 
+  osobaID          number(10) NOT NULL, 
+  sifraVrsteOdnosa number(10) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (klijentOsobaID));
+COMMENT ON TABLE klijentEvidencijaOsoba IS 'Ovlaštene osobe od strane klijenta';
+CREATE TABLE korisnikUsluge (
+  korisnikUslugeID number(10) NOT NULL, 
+  uslugaID         number(10) NOT NULL, 
+  klijentOsobaID   number(10) NOT NULL, 
+  datumOtvaranja   date NOT NULL, 
+  datumZatvaranja  date, 
+  sifraAktivnosti  number(1) NOT NULL, 
+  korisnickoIme    varchar2(100) NOT NULL, 
+  lozinka          varchar2(100) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (korisnikUslugeID));
+COMMENT ON TABLE korisnikUsluge IS 'Veza između konkretne usluge koju je klijent ugovorio i osoba koje mogu koristiti tu uslugu';
+CREATE TABLE kreiraniIzvodStavke (
+  kreiraniIzvodID           number(10) NOT NULL, 
+  stavkaID                  number(10) NOT NULL, 
+  datumVrijemePromjeneSalda timestamp(0) NOT NULL, 
+  sifraValute               varchar2(3) NOT NULL, 
+  datumValute               date NOT NULL, 
+  opis                      varchar2(255) NOT NULL, 
+  uplata                    float(10), 
+  isplata                   float(10), 
+  PRIMARY KEY (kreiraniIzvodID, 
+  stavkaID));
+CREATE TABLE racun (
+  racunID              number(10) NOT NULL, 
+  IBAN                 varchar2(21) NOT NULL UNIQUE, 
+  klijentID            number(10) NOT NULL, 
+  sifraVrsteRacuna     varchar2(10) NOT NULL, 
+  sifraAktivnosti      number(1) NOT NULL, 
+  datumOtvaranja       date NOT NULL, 
+  datumZatvaranja      date, 
+  blokiran             number(1) NOT NULL CHECK(blokiran IN (0, 1)), 
+  sifraPeriodikeIzvoda number(10) NOT NULL, 
+  upitUStanje          number(1) NOT NULL CHECK(upitUStanje IN (0, 1)), 
+  obracunNaknade       number(1) NOT NULL CHECK(obracunNaknade IN (0, 1)), 
+  djelatnikBankeID     number(10), 
+  datumPromjene        date NOT NULL, 
+  PRIMARY KEY (racunID));
+COMMENT ON COLUMN racun.blokiran IS '0 - neblokiran
+1 - blokiran';
+COMMENT ON COLUMN racun.upitUStanje IS '0 - NE - klijent ne dozvoljava da mu se radi upit u stanje s nekih aplikacija
+1 - DA - klijent dozvoljava da mu se radi upit u stanje s nekih aplikacija';
+COMMENT ON COLUMN racun.obracunNaknade IS '0 - NE - ne obračunava se naknada za usluge
+1 - DA -  obračunava se naknada za usluge';
+CREATE TABLE racunKreiraniIzvod (
+  kreiraniIzvodID       number(10) NOT NULL, 
+  racunUgovoreniIzvodID number(10) NOT NULL, 
+  datumIzvoda           date NOT NULL, 
+  brojIzvoda            number(5) NOT NULL, 
+  prethodnoStanje       float(10) NOT NULL, 
+  zavrsnoStanje         float(10) NOT NULL, 
+  datumVrijemeKreiranja timestamp(0) NOT NULL, 
+  PRIMARY KEY (kreiraniIzvodID));
+CREATE TABLE racunUgovoreniIzvod (
+  racunUgovoreniIzvodID  number(10) NOT NULL, 
+  racunID                number(10) NOT NULL, 
+  sifraFormataIzvoda     number(10) NOT NULL, 
+  sifraKanalaIzvoda      number(10) NOT NULL, 
+  datumVrijemeUgovaranja timestamp(0) NOT NULL, 
+  PRIMARY KEY (racunUgovoreniIzvodID));
+CREATE TABLE sifarnikAktivnosti (
+  sifraAktivnosti  number(1) NOT NULL, 
+  nazivAktivnosti  varchar2(50) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (sifraAktivnosti));
+CREATE TABLE sifarnikDrzava (
+  sifraDrzave      number(10) NOT NULL, 
+  nazivDrzave      varchar2(100) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (sifraDrzave));
+CREATE TABLE sifarnikFormataIzvoda (
+  sifraFormataIzvoda number(10) NOT NULL, 
+  nazivFormata       varchar2(50) NOT NULL, 
+  djelatnikBankeID   number(10), 
+  datumPromjene      date NOT NULL, 
+  PRIMARY KEY (sifraFormataIzvoda));
+CREATE TABLE sifarnikIdentifikacijskihIsprava (
+  sifraIdentifikacijskeIsprave number(10) NOT NULL, 
+  nazivIdentifikacijskeIsprave varchar2(100) NOT NULL, 
+  djelatnikBankeID             number(10), 
+  datumPromjene                date NOT NULL, 
+  PRIMARY KEY (sifraIdentifikacijskeIsprave));
+CREATE TABLE sifarnikKanalaIzvoda (
+  sifraKanalaIzvoda number(10) NOT NULL, 
+  nazivKanala       varchar2(50) NOT NULL, 
+  djelatnikBankeID  number(10), 
+  datumPromjene     date NOT NULL, 
+  PRIMARY KEY (sifraKanalaIzvoda));
+CREATE TABLE sifarnikMjesta (
+  brPoste          number(5) NOT NULL, 
+  mjesto           varchar2(255) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (brPoste));
+CREATE TABLE sifarnikPeriodikaIzvoda (
+  sifraPeriodikeIzvoda number(10) NOT NULL, 
+  nazivPeriodike       varchar2(50) NOT NULL, 
+  djelatnikBankeID     number(10), 
+  datumPromjene        date NOT NULL, 
+  PRIMARY KEY (sifraPeriodikeIzvoda));
+CREATE TABLE sifarnikSektora (
+  sifraSektora     varchar2(2) NOT NULL, 
+  nazivSektora     varchar2(255) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (sifraSektora));
+CREATE TABLE sifarnikTipovaRacuna (
+  sifraTipaRacuna  varchar2(2) NOT NULL, 
+  nazivTipaRacuna  varchar2(100) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (sifraTipaRacuna));
+CREATE TABLE sifarnikValuta (
+  sifraValute      varchar2(3) NOT NULL, 
+  valuta           varchar2(3) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (sifraValute));
+CREATE TABLE sifarnikVrsteBankovnihRacuna (
+  sifraVrsteRacuna varchar2(10) NOT NULL, 
+  nazivVrsteRacuna varchar2(100) NOT NULL, 
+  sifraTipaRacuna  varchar2(2) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (sifraVrsteRacuna));
+CREATE TABLE sifarnikVrsteOdnosa (
+  sifraVrsteOdnosa number(10) NOT NULL, 
+  nazivVrsteOdnosa varchar2(100) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (sifraVrsteOdnosa));
+CREATE TABLE sifarnikVrsteUsluga (
+  sifraVrsteUsluge number(10) NOT NULL, 
+  nazivVrsteUsluge varchar2(100) NOT NULL, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (sifraVrsteUsluge));
+CREATE TABLE usluga (
+  uslugaID         number(10) NOT NULL, 
+  klijentID        number(10) NOT NULL, 
+  racunID          number(10), 
+  sifraVrsteUsluge number(10) NOT NULL, 
+  sifraAktivnosti  number(1) NOT NULL, 
+  datumOtvaranja   date NOT NULL, 
+  datumZatvaranja  date, 
+  djelatnikBankeID number(10), 
+  datumPromjene    date NOT NULL, 
+  PRIMARY KEY (uslugaID));
+COMMENT ON COLUMN usluga.racunID IS 'Može a i ne mora biti upisan, ako je upisan znači da ta usluga vrijedi samo za taj konkretni račun.';
+ALTER TABLE racunUgovoreniIzvod ADD CONSTRAINT FKracunUgovo882995 FOREIGN KEY (racunID) REFERENCES racun (racunID);
+ALTER TABLE racun ADD CONSTRAINT FKracun158120 FOREIGN KEY (sifraVrsteRacuna) REFERENCES sifarnikVrsteBankovnihRacuna (sifraVrsteRacuna);
+ALTER TABLE racunUgovoreniIzvod ADD CONSTRAINT FKracunUgovo988363 FOREIGN KEY (sifraFormataIzvoda) REFERENCES sifarnikFormataIzvoda (sifraFormataIzvoda);
+ALTER TABLE racunUgovoreniIzvod ADD CONSTRAINT FKracunUgovo387385 FOREIGN KEY (sifraKanalaIzvoda) REFERENCES sifarnikKanalaIzvoda (sifraKanalaIzvoda);
+ALTER TABLE cjenikIzvoda ADD CONSTRAINT FKcjenikIzvo510721 FOREIGN KEY (sifraFormataIzvoda) REFERENCES sifarnikFormataIzvoda (sifraFormataIzvoda);
+ALTER TABLE cjenikIzvoda ADD CONSTRAINT FKcjenikIzvo85120 FOREIGN KEY (sifraKanalaIzvoda) REFERENCES sifarnikKanalaIzvoda (sifraKanalaIzvoda);
+ALTER TABLE klijent ADD CONSTRAINT FKklijent113157 FOREIGN KEY (sifraSektora) REFERENCES sifarnikSektora (sifraSektora);
+ALTER TABLE klijent ADD CONSTRAINT FKklijent998097 FOREIGN KEY (sifraDrzave) REFERENCES sifarnikDrzava (sifraDrzave);
+ALTER TABLE racunKreiraniIzvod ADD CONSTRAINT FKracunKreir231675 FOREIGN KEY (racunUgovoreniIzvodID) REFERENCES racunUgovoreniIzvod (racunUgovoreniIzvodID);
+ALTER TABLE klijent ADD CONSTRAINT FKklijent6927 FOREIGN KEY (brPoste) REFERENCES sifarnikMjesta (brPoste);
+ALTER TABLE klijent ADD CONSTRAINT FKklijent942738 FOREIGN KEY (sifraAktivnosti) REFERENCES sifarnikAktivnosti (sifraAktivnosti);
+ALTER TABLE evidencijaOsoba ADD CONSTRAINT FKevidencija190598 FOREIGN KEY (brPoste) REFERENCES sifarnikMjesta (brPoste);
+ALTER TABLE evidencijaOsoba ADD CONSTRAINT FKevidencija49239 FOREIGN KEY (sifraIdentifikacijskeIsprave) REFERENCES sifarnikIdentifikacijskihIsprava (sifraIdentifikacijskeIsprave);
+ALTER TABLE klijentEvidencijaOsoba ADD CONSTRAINT FKklijentEvi47877 FOREIGN KEY (sifraVrsteOdnosa) REFERENCES sifarnikVrsteOdnosa (sifraVrsteOdnosa);
+ALTER TABLE klijentEvidencijaOsoba ADD CONSTRAINT FKklijentEvi27408 FOREIGN KEY (klijentID) REFERENCES klijent (klijentID);
+ALTER TABLE klijentEvidencijaOsoba ADD CONSTRAINT FKklijentEvi369630 FOREIGN KEY (osobaID) REFERENCES evidencijaOsoba (osobaID);
+ALTER TABLE racun ADD CONSTRAINT FKracun730626 FOREIGN KEY (klijentID) REFERENCES klijent (klijentID);
+ALTER TABLE racun ADD CONSTRAINT FKracun404394 FOREIGN KEY (sifraPeriodikeIzvoda) REFERENCES sifarnikPeriodikaIzvoda (sifraPeriodikeIzvoda);
+ALTER TABLE usluga ADD CONSTRAINT FKusluga641126 FOREIGN KEY (klijentID) REFERENCES klijent (klijentID);
+ALTER TABLE usluga ADD CONSTRAINT FKusluga961334 FOREIGN KEY (racunID) REFERENCES racun (racunID);
+ALTER TABLE usluga ADD CONSTRAINT FKusluga658178 FOREIGN KEY (sifraVrsteUsluge) REFERENCES sifarnikVrsteUsluga (sifraVrsteUsluge);
+ALTER TABLE racun ADD CONSTRAINT FKracun390968 FOREIGN KEY (sifraAktivnosti) REFERENCES sifarnikAktivnosti (sifraAktivnosti);
+ALTER TABLE usluga ADD CONSTRAINT FKusluga301468 FOREIGN KEY (sifraAktivnosti) REFERENCES sifarnikAktivnosti (sifraAktivnosti);
+ALTER TABLE evidencijaDjelatnikaBanke ADD CONSTRAINT FKevidencija774726 FOREIGN KEY (osobaID) REFERENCES evidencijaOsoba (osobaID);
+ALTER TABLE evidencijaDjelatnikaBanke ADD CONSTRAINT FKevidencija782562 FOREIGN KEY (djelatnikBankeID_FK) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE korisnikUsluge ADD CONSTRAINT FKkorisnikUs871756 FOREIGN KEY (uslugaID) REFERENCES usluga (uslugaID);
+ALTER TABLE klijentEvidencijaOsoba ADD CONSTRAINT FKklijentEvi444266 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE evidencijaOsoba ADD CONSTRAINT FKevidencija937742 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE korisnikUsluge ADD CONSTRAINT FKkorisnikUs468202 FOREIGN KEY (klijentOsobaID) REFERENCES klijentEvidencijaOsoba (klijentOsobaID);
+ALTER TABLE korisnikUsluge ADD CONSTRAINT FKkorisnikUs565658 FOREIGN KEY (sifraAktivnosti) REFERENCES sifarnikAktivnosti (sifraAktivnosti);
+ALTER TABLE korisnikUsluge ADD CONSTRAINT FKkorisnikUs594599 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE kreiraniIzvodStavke ADD CONSTRAINT FKkreiraniIz791405 FOREIGN KEY (kreiraniIzvodID) REFERENCES racunKreiraniIzvod (kreiraniIzvodID);
+ALTER TABLE izvodValute ADD CONSTRAINT FKizvodValut21280 FOREIGN KEY (sifraValute) REFERENCES sifarnikValuta (sifraValute);
+ALTER TABLE izvodValute ADD CONSTRAINT FKizvodValut807477 FOREIGN KEY (kreiraniIzvodID) REFERENCES racunKreiraniIzvod (kreiraniIzvodID);
+ALTER TABLE kreiraniIzvodStavke ADD CONSTRAINT FKkreiraniIz577603 FOREIGN KEY (sifraValute) REFERENCES sifarnikValuta (sifraValute);
+ALTER TABLE sifarnikVrsteBankovnihRacuna ADD CONSTRAINT FKsifarnikVr865859 FOREIGN KEY (sifraTipaRacuna) REFERENCES sifarnikTipovaRacuna (sifraTipaRacuna);
+ALTER TABLE sifarnikMjesta ADD CONSTRAINT FKsifarnikMj998553 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikIdentifikacijskihIsprava ADD CONSTRAINT FKsifarnikId348680 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikVrsteOdnosa ADD CONSTRAINT FKsifarnikVr743398 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikAktivnosti ADD CONSTRAINT FKsifarnikAk221867 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE klijent ADD CONSTRAINT FKklijent754071 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE racun ADD CONSTRAINT FKracun769289 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikVrsteUsluga ADD CONSTRAINT FKsifarnikVr317117 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikPeriodikaIzvoda ADD CONSTRAINT FKsifarnikPe223691 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikVrsteBankovnihRacuna ADD CONSTRAINT FKsifarnikVr714644 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikTipovaRacuna ADD CONSTRAINT FKsifarnikTi313431 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikFormataIzvoda ADD CONSTRAINT FKsifarnikFo7451 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE cjenikIzvoda ADD CONSTRAINT FKcjenikIzvo230615 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikKanalaIzvoda ADD CONSTRAINT FKsifarnikKa11975 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikValuta ADD CONSTRAINT FKsifarnikVa559932 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE usluga ADD CONSTRAINT FKusluga112801 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikSektora ADD CONSTRAINT FKsifarnikSe931766 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);
+ALTER TABLE sifarnikDrzava ADD CONSTRAINT FKsifarnikDr332488 FOREIGN KEY (djelatnikBankeID) REFERENCES evidencijaDjelatnikaBanke (djelatnikBankeID);

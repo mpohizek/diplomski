@@ -1,0 +1,1091 @@
+INSERT ALL
+	INTO sifarnikMjesta VALUES (10000, 'Zagreb', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10010, 'Zagreb-Sloboština', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10020, 'Zagreb-Novi Zagreb', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10040, 'Zagreb-Dubrava', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10090, 'Zagreb-Susedgrad', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10110, 'Zagreb', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10250, 'Lučko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10251, 'Hrvatski Leskovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10253, 'Donji Dragonožec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10255, 'Gornji Stupnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10257, 'Brezovica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10290, 'Zaprešić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10291, 'Prigorje Brdovečko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10292, 'Šenkovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10293, 'Dubravica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10294, 'Donja Pušća', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10295, 'Kupljenovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10296, 'Luka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10297, 'Jakovlje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10298, 'Donja Bistra', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10299, 'Marija Gorica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10310, 'Ivanić-Grad', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10311, 'Posavski Bregi', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10312, 'Kloštar Ivanić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10313, 'Graberje Ivaničko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10314, 'Križ', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10315, 'Novoselec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10316, 'Lijevi Dubrovčak', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10340, 'Vrbovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10341, 'Lonjica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10342, 'Dubrava', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10343, 'Nova Kapela', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10344, 'Farkaševac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10345, 'Gradec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10346, 'Preseka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10347, 'Rakovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10360, 'Sesvete', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10361, 'Sesvete-Kraljevec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10362, 'Kašina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10363, 'Belovar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10370, 'Dugo Selo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10372, 'Oborovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10373, 'Ivanja Reka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10380, 'Sveti Ivan Zelina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10381, 'Bedenica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10382, 'Donja Zelina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10383, 'Komin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10408, 'Velika Mlaka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10410, 'Velika Gorica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10411, 'Orle', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10412, 'Donja Lomnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10413, 'Kravarsko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10414, 'Pokupsko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10415, 'Novo Čiče', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10417, 'Buševec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10418, 'Dubranec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10419, 'Vukovina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10430, 'Samobor', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10431, 'Sveta Nedjelja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10432, 'Bregana', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10434, 'Strmec Samoborski', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10435, 'Sveti Martin pod Okićem', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10436, 'Rakov Potok', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10437, 'Bestovje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10450, 'Jastrebarsko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10451, 'Pisarovina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10453, 'Gorica Svetojanska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10454, 'Krašić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10455, 'Kostanjevac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10456, 'Kalje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (10457, 'Sošice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20000, 'Dubrovnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20205, 'Topolo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20207, 'Mlini', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20210, 'Cavtat', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20213, 'Čilipi', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20215, 'Gruda', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20216, 'Dubravka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20217, 'Pridvorje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20218, 'Pločice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20221, 'Koločep', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20222, 'Lopud', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20223, 'Šipanjska Luka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20224, 'Maranovići', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20225, 'Babino Polje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20226, 'Goveđari', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20230, 'Ston', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20231, 'Doli', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20232, 'Slano', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20233, 'Trsteno', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20234, 'Orašac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20235, 'Zaton Veliki', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20236, 'Mokošica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20240, 'Trpanj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20242, 'Oskorušno', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20243, 'Kuna', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20244, 'Potomje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20245, 'Trstenik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20246, 'Janjina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20247, 'Žuljana', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20248, 'Putniković', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20250, 'Orebić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20260, 'Korčula', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20263, 'Lumbarda', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20264, 'Račišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20267, 'Kućište', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20269, 'Lovište', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20270, 'Vela Luka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20271, 'Blato', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20272, 'Smokvica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20273, 'Čara', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20274, 'Pupnat', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20275, 'Žrnovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20278, 'Nova Sela', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20290, 'Lastovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20340, 'Ploče', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20341, 'Kula Norinska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20342, 'Otrić Seoci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20343, 'Rogotin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20344, 'Komin (Dalma)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20345, 'Staševica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20350, 'Metković', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20352, 'Vid', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20353, 'Mlinište', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20355, 'Opuzen', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20356, 'Klek', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (20357, 'Blace', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21233, 'Hrvace', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21236, 'Vrlika', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21238, 'Otok (Dalmacija)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21240, 'Trilj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21241, 'Obrovac Sinjski', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21242, 'Grab', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21243, 'Ugljane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21244, 'Cista Velika', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21245, 'Tijarica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21246, 'Aržano', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21247, 'Neorić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21250, 'Šestanovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21251, 'Žrnovnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21252, 'Tugare', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21253, 'Gata', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21254, 'Blato na Cetini', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21255, 'Zadvarje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21256, 'Cista Provo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21257, 'Lovreć', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21260, 'Imotski', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21261, 'Runović', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21262, 'Kamenmost', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21263, 'Krivodol', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21264, 'Donji Proložac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21265, 'Studenci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21266, 'Zmijavci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21267, 'Ričice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21270, 'Zagvozd', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21271, 'Grabovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21272, 'Slivno', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21273, 'Župa', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21275, 'Dragljane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21276, 'Vrgorac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21277, 'Veliki Prolog', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21292, 'Srinjine', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21300, 'Makarska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21310, 'Omiš', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21311, 'Stobreč', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21312, 'Podstrana', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21314, 'Jesenice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21315, 'Dugi Rat', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21317, 'Lokva Rogoznica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21318, 'Mimice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21320, 'Baška Voda', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21322, 'Brela', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21323, 'Promajna', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21325, 'Tučepi', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21327, 'Podgora', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21328, 'Drašnice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21329, 'Igrane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21330, 'Gradac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21333, 'Drvenik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21334, 'Zaostrog', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21335, 'Podaca', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21400, 'Supetar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21403, 'Sutivan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21404, 'Ložišća', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21405, 'Milna', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21410, 'Postira', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21412, 'Pučišća', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21413, 'Povlja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21420, 'Bol', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21423, 'Nerežišća', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21424, 'Pražnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21425, 'Selca', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21430, 'Grohote', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21432, 'Stomorska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21450, 'Hvar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21454, 'Brusje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21460, 'Stari Grad', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21462, 'Vrbanj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21463, 'Vrboska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21465, 'Jelsa', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21466, 'Zastražišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21467, 'Gdinj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21469, 'Sućuraj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21480, 'Vis', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21483, 'Podšpilje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (21485, 'Komiža', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22000, 'Šibenik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22030, 'Šibenik-Zablaće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22202, 'Primošten', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22203, 'Rogoznica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22204, 'Široke', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22205, 'Perković', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22206, 'Boraja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22211, 'Vodice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22212, 'Tribunj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22213, 'Pirovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22214, 'Čista Velika', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22215, 'Zaton', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22221, 'Lozovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22222, 'Skradin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22232, 'Zlarin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22233, 'Prvić Luka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22234, 'Prvić Šepurine', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22235, 'Kaprije', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22236, 'Žirje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22240, 'Tisno', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22242, 'Jezera', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22243, 'Murter', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22244, 'Betina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22300, 'Knin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22301, 'Golubić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22303, 'Oklaj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22305, 'Kistanje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22310, 'Kijevo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22320, 'Drniš', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22321, 'Siverić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22322, 'Ružić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22323, 'Unešić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (22324, 'Drinovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23000, 'Zadar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23205, 'Bibinje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23206, 'Sukošan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23207, 'Sveti Filip i Jakov', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23210, 'Biograd na moru', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23211, 'Pakoštane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23212, 'Tkon', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23222, 'Zemunik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23223, 'Škabrnja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23226, 'Pridraga', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23231, 'Petrčane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23232, 'Nin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23233, 'Privlaka (Dalmacija)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23234, 'Vir', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23235, 'Vrsi', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23241, 'Poličnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23242, 'Posedarje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23243, 'Jasenice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23244, 'Starigrad Paklenica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23245, 'Tribanj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23247, 'Vinjerac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23248, 'Ražanac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23249, 'Povljana', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23250, 'Pag', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23251, 'Kolan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23262, 'Pašman', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23263, 'Ždrelac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23264, 'Neviđane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23271, 'Kukljica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23272, 'Kali', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23273, 'Preko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23274, 'Lukoran', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23275, 'Ugljan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23281, 'Sali', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23282, 'Žman', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23283, 'Rava', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23284, 'Veli Iž', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23285, 'Brbinj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23286, 'Božava', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23287, 'Veli Rat', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23291, 'Sestrunj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23292, 'Molat', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23293, 'Ist', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23294, 'Premuda', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23295, 'Silba', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23296, 'Olib', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23312, 'Novigrad (Dalmacija)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23420, 'Benkovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23422, 'Stankovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23423, 'Polača', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23440, 'Gračac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23445, 'Srb', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23450, 'Obrovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (23452, 'Karin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32000, 'Vukovar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32010, 'Vukovar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32100, 'Vinkovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32211, 'Ostrovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32212, 'Gaboš', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32213, 'Markušica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32214, 'Tordinci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32221, 'Nuštar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32222, 'Bršadin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32224, 'Trpinja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32225, 'Bobota', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32227, 'Borovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32229, 'Petrovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32232, 'Sotin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32233, 'Opatovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32234, 'Šarengrad', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32235, 'Bapska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32236, 'Ilok', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32237, 'Lovas', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32238, 'Čakovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32239, 'Negoslavci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32241, 'Stari Jankovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32242, 'Slakovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32243, 'Orolik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32244, 'Đeletovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32245, 'Nijemci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32246, 'Lipovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32247, 'Banovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32248, 'Ilača', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32249, 'Tovarnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32251, 'Privlaka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32252, 'Otok', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32253, 'Komletinci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32254, 'Vrbanja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32255, 'Soljani', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32256, 'Strošinci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32257, 'Drenovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32258, 'Posavski Podgajci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32260, 'Gunja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32261, 'Rajevo Selo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32262, 'Račinovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32263, 'Đurići', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32270, 'Županja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32271, 'Rokovci Andrijaševci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32272, 'Cerna', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32273, 'Gradište', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32274, 'Štitar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32275, 'Bošnjaci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32276, 'Babina Greda', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32280, 'Jarmina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32281, 'Ivankovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32282, 'Retkovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32283, 'Vođinci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (32284, 'Stari Mikanovci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33000, 'Virovitica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33404, 'Špišić Bukovica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33405, 'Pitomača', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33406, 'Lukač', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33407, 'Gornje Bazje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33410, 'Suhopolje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33411, 'Gradina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33412, 'Cabuna', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33507, 'Crnac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33513, 'Zdenci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33514, 'Čačinci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33515, 'Orahovica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33517, 'Mikleuš', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33518, 'Nova Bukovica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33520, 'Slatina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33522, 'Voćin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33523, 'Čađavica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33525, 'Sopje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (33533, 'Pivnica Slavonska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34000, 'Požega', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34308, 'Jakšić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34310, 'Pleternica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34311, 'Kuzmica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34312, 'Sesvete (kod Požege)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34315, 'Ratkovica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34322, 'Brestovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34330, 'Velika', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34334, 'Kaptol', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34335, 'Vetovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34340, 'Kutjevo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34343, 'Bektež', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34350, 'Čaglin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34543, 'Poljana', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34550, 'Pakrac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34551, 'Lipik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34552, 'Badljevina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (34553, 'Bučje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35105, 'Slavonski Brod', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35106, 'Slavonski Brod', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35107, 'Podvinje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35201, 'Podcrkavlje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35209, 'Bukovlje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35214, 'Donji Andrijevci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35250, 'Oriovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35252, 'Sibinj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35254, 'Bebrina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35404, 'Cernik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35410, 'Nova Kapela', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35422, 'Zapolje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35428, 'Dragalić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (35430, 'Okučani', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40000, 'Čakovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40305, 'Nedelišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40306, 'Macinec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40311, 'Lopatinec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40312, 'Štrigova', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40313, 'Sveti Martin na Muri', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40314, 'Selnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40315, 'Mursko Središče', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40317, 'Podturen', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40318, 'Dekanovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40319, 'Belica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40320, 'Donji Kraljevec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40321, 'Mala Subotica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40322, 'Orehovica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40323, 'Prelog', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40324, 'Goričan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40325, 'Draškovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40326, 'Sveta Marija', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40327, 'Donji Vidovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40328, 'Donja Dubrava', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (40329, 'Kotoriba', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42000, 'Varaždin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42201, 'Beretinec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42202, 'Trnovec Bartolovečki', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42203, 'Jalžabet', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42204, 'Turčin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42205, 'Vidovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42206, 'Petrijanec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42207, 'Vinica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42208, 'Cestica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42209, 'Sračinec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42214, 'Sveti Ilija', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42220, 'Novi Marof', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42222, 'Ljubeščica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42223, 'Varaždinske Toplice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42225, 'Breznički Hum', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42230, 'Ludbreg', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42231, 'Mali Bukovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42232, 'Donji Martijanec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42233, 'Sveti Đurđ', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42240, 'Ivanec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42242, 'Radovan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42243, 'Maruševec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42244, 'Klenovnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42245, 'Donja Voća', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42250, 'Lepoglava', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42253, 'Bednja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42254, 'Trakošćan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (42255, 'Donja Višnjica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43000, 'Bjelovar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43202, 'Zrinski Topolovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43203, 'Kapela', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43211, 'Predava', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43212, 'Rovišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43226, 'Veliko Trojstvo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43227, 'Šandrovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43231, 'Ivanska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43232, 'Berek', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43233, 'Trnovitički Popovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43240, 'Čazma', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43246, 'Štefanje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43247, 'Narta', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43251, 'Gudovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43252, 'Prgomelje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43270, 'Veliki Grđevac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43272, 'Nova Rača', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43273, 'Bulinac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43274, 'Severin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43280, 'Garešnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43282, 'Veliko Vukovje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43283, 'Kaniška Iva', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43284, 'Hercegovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43290, 'Grubišno Polje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43293, 'Veliki Zdenci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43500, 'Daruvar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43505, 'Končanica (Končenice)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43506, 'Dežanovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43507, 'Uljanik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43531, 'Veliki Bastaji', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43532, 'Đulovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (43541, 'Sirač', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44000, 'Sisak', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44010, 'Sisak-Caprag', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44201, 'Martinska Ves', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44202, 'Topolovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44203, 'Gušće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44204, 'Jabukovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44210, 'Sunja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44211, 'Blinjski Kut', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44213, 'Kratečko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44250, 'Petrinja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44253, 'Mošćenica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44272, 'Lekenik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44273, 'Sela', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44316, 'Velika Ludina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44317, 'Popovača', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44318, 'Voloder', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44320, 'Kutina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44321, 'Banova Jaruga', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44322, 'Lipovljani', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44323, 'Rajić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44324, 'Jasenovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44325, 'Krapje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44330, 'Novska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44400, 'Glina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44410, 'Gvozd', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44415, 'Topusko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44430, 'Hrvatska Kostajnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44431, 'Donji Kukuruzari', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44435, 'Divuša', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44440, 'Dvor', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (44450, 'Hrvatska Dubica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47000, 'Karlovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47201, 'Draganići', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47203, 'Rečica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47204, 'Šišljavić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47206, 'Lasinja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47212, 'Skakavac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47220, 'Vojnić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47222, 'Cetingrad', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47240, 'Slunj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47241, 'Cerovac Vukmanički', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47242, 'Krnjak', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47245, 'Rakovica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47246, 'Drežnik Grad', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47250, 'Duga Resa', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47251, 'Bosiljevo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47252, 'Barilović', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47261, 'Zvečaj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47262, 'Generalski Stol', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47264, 'Tounj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47271, 'Netretić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47272, 'Ribnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47276, 'Žakanje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47280, 'Ozalj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47281, 'Mali Erjavec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47282, 'Kamanje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47283, 'Vivodina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47284, 'Kašt', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47285, 'Radatovići', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47286, 'Mahično', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47300, 'Ogulin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47302, 'Oštarije', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47303, 'Josipdol', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47304, 'Plaški', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47306, 'Saborsko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47307, 'Gornje Zagorje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47313, 'Drežnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (47314, 'Jasenak', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48000, 'Koprivnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48214, 'Sveti Ivan Žabno', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48260, 'Križevci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48264, 'Kloštar Vojakovački', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48265, 'Raven', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48267, 'Orehovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48268, 'Gornja Rijeka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48269, 'Kalnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48306, 'Sokolovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48311, 'Kunovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48312, 'Rasinja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48314, 'Koprivnički Ivanec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48316, 'Đelekovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48317, 'Legrad', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48321, 'Peteranec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48322, 'Drnje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48323, 'Hlebine', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48325, 'Novigrad Podravski', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48326, 'Virje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48327, 'Molve', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48331, 'Gola', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48332, 'Ždala', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48350, 'Đurđevac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48355, 'Novo Virje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48356, 'Ferdinandovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48361, 'Kalinovac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48362, 'Kloštar Podravski', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (48363, 'Podravske Sesvete', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49000, 'Krapina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49210, 'Zabok', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49214, 'Veliko Trgovišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49215, 'Tuhelj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49216, 'Desinić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49217, 'Krapinske Toplice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49218, 'Pregrada', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49221, 'Bedekovčina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49222, 'Poznanovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49223, 'Sveti Križ Začretje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49224, 'Lepajci', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49225, 'Đurmanec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49228, 'Brestovec Orehovički', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49231, 'Hum na Sutli', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49232, 'Radoboj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49233, 'Gornje Jesenje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49234, 'Petrovsko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49240, 'Donja Stubica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49243, 'Oroslavje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49244, 'Stubičke Toplice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49245, 'Gornja Stubica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49246, 'Marija Bistrica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49247, 'Zlatar Bistrica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49250, 'Zlatar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49251, 'Mače', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49252, 'Mihovljan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49253, 'Lobor', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49254, 'Belec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49255, 'Novi Golubovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49282, 'Konjščina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49283, 'Hraščina-Trgovišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49284, 'Budinšćina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49290, 'Klanjec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49294, 'Kraljevec na Sutli', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49295, 'Kumrovec', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (49296, 'Zagorska Sela', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51000, 'Rijeka', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51211, 'Matulji', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51212, 'Vele Mune', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51213, 'Jurdani', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51214, 'Šapjane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51215, 'Kastav', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51216, 'Viškovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51217, 'Klana', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51218, 'Dražice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51221, 'Kostrena', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51222, 'Bakar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51223, 'Škrljevo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51224, 'Krasica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51225, 'Praputnjak', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51226, 'Hreljin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51227, 'Kukuljanovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51241, 'Križišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51242, 'Drivenik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51243, 'Tribalj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51244, 'Grižane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51250, 'Novi Vinodolski', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51251, 'Ledenice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51252, 'Klenovica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51253, 'Bribir', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51260, 'Crikvenica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51261, 'Bakarac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51262, 'Kraljevica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51263, 'Šmrika', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51264, 'Jadranovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51265, 'Dramalj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51266, 'Selce', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51280, 'Rab', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51281, 'Lopar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51300, 'Delnice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51301, 'Brod na Kupi', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51302, 'Kuželj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51303, 'Plešce', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51304, 'Gerovo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51305, 'Tršće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51306, 'Čabar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51307, 'Prezid', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51311, 'Skrad', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51312, 'Brod Moravice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51313, 'Kupjak', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51314, 'Ravna Gora', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51315, 'Mrkopalj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51316, 'Lokve', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51317, 'Crni Lug', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51322, 'Fužine', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51323, 'Lič', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51324, 'Zlobin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51325, 'Moravice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51326, 'Vrbovsko', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51327, 'Gomirje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51328, 'Lukovdol', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51329, 'Severin na Kupi', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51410, 'Opatija', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51414, 'Ičići', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51415, 'Lovran', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51417, 'Mošćenička Draga', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51418, 'Brseč', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51500, 'Krk', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51511, 'Malinska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51512, 'Njivice', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51513, 'Omišalj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51514, 'Dobrinj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51515, 'Šilo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51516, 'Vrbnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51517, 'Kornić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51521, 'Punat', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51522, 'Draga Bašćanska', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51523, 'Baška', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51550, 'Mali Lošinj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51551, 'Veli Lošinj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51552, 'Ilovik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51554, 'Nerezine', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51555, 'Belej', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51556, 'Martinšćica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51557, 'Cres', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51559, 'Beli', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51561, 'Susak', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51562, 'Unije', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (51564, 'Ćunski', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52000, 'Pazin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52100, 'Pula (Pola)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52203, 'Medulin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52204, 'Ližnjan (Lisignano)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52206, 'Marčana', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52207, 'Barban', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52208, 'Krnica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52210, 'Rovinj (Rovigno)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52211, 'Bale (Valle)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52212, 'Fažana (Fasana)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52215, 'Vodnjan (Dignano)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52216, 'Galižana (Gallesano)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52220, 'Labin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52221, 'Rabac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52222, 'Koromačno', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52223, 'Raša', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52224, 'Trget', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52231, 'Nedešćina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52232, 'Kršan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52233, 'Šušnjevica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52234, 'Plomin', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52332, 'Pićan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52333, 'Podpićan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52341, 'Žminj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52342, 'Svetvinčenat', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52352, 'Kanfanar', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52402, 'Cerovlje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52403, 'Gračišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52404, 'Sveti Petar u šumi', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52420, 'Buzet', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52422, 'Lanišće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52423, 'Karojba', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52424, 'Motovun (Montana)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52425, 'Roč', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52426, 'Lupoglav', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52427, 'Livade (Levade)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52428, 'Oprtalj (Portole)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52429, 'Grožnjan (Grisignana)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52434, 'Boljun', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52440, 'Poreč (Parenzo)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52444, 'Tinjan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52445, 'Baderna', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52446, 'Nova Vas', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52447, 'Vižinada (Visinada)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52448, 'Sveti Lovreč', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52449, 'Červar Porat', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52450, 'Vrsar (Orsera)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52452, 'Funtana (Fontane)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52460, 'Buje (Buie)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52462, 'Momjan (Momiano)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52463, 'Višnjan (Visignano)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52464, 'Kaštelir (Castelliere)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52465, 'Tar (Torre)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52466, 'Novigrad (Cittanova)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52470, 'Umag (Umago)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52474, 'Brtonigla (Verteneglio)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (52475, 'Savudrija (Salvore)', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53000, 'Gospić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53201, 'Lički Osik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53202, 'Perušić', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53203, 'Kosinj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53206, 'Brušane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53211, 'Smiljan', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53212, 'Klanac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53213, 'Donje Pazarište', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53220, 'Otočac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53223, 'Vrhovine', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53224, 'Ličko Lešće', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53230, 'Korenica', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53231, 'Plitvička Jezera', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53233, 'Ličko Petrovo Selo', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53234, 'Udbina', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53236, 'Podlapača', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53244, 'Lovinac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53250, 'Donji Lapac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53260, 'Brinje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53261, 'Križpolje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53262, 'Jezerane', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53270, 'Senj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53271, 'Krivi Put', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53273, 'Vratnik', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53274, 'Krasno', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53284, 'Sveti Juraj', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53287, 'Jablanac', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53288, 'Karlobag', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53289, 'Lukovo Šugarje', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53291, 'Novalja', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53294, 'Lun', NULL, SYSDATE)
+	INTO sifarnikMjesta VALUES (53296, 'Zubovići', NULL, SYSDATE)
+SELECT * FROM dual;
+
+INSERT INTO sifarnikVrsteOdnosa VALUES (sifarnikVrsteOdnosa_SEQ.NEXTVAL, 'Vlasnik', NULL, SYSDATE);
+INSERT INTO sifarnikVrsteOdnosa VALUES (sifarnikVrsteOdnosa_SEQ.NEXTVAL, 'Zakonski zastupnik', NULL, SYSDATE);
+INSERT INTO sifarnikVrsteOdnosa VALUES (sifarnikVrsteOdnosa_SEQ.NEXTVAL, 'Opunomoćenik', NULL, SYSDATE);
+INSERT INTO sifarnikVrsteOdnosa VALUES (sifarnikVrsteOdnosa_SEQ.NEXTVAL, 'Prokurist', NULL, SYSDATE);
+INSERT INTO sifarnikVrsteOdnosa VALUES (sifarnikVrsteOdnosa_SEQ.NEXTVAL, 'Kontakt osoba', NULL, SYSDATE);
+
+INSERT ALL
+	INTO sifarnikAktivnosti VALUES (0, 'Neaktivan', NULL, SYSDATE)
+	INTO sifarnikAktivnosti VALUES (1, 'Aktivan', NULL, SYSDATE)
+	INTO sifarnikAktivnosti VALUES (2, 'U postupku gašenja', NULL, SYSDATE)
+SELECT * FROM dual;
+
+INSERT ALL
+	INTO sifarnikSektora VALUES ('00', 'Javna poduzeća', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('01', 'Ostala trgovačka društva', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('10', 'Središnja banka (HNB)', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('11', 'Banke i štedionice', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('12', 'Ostale bankovne institucije', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('13', 'HBOR', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('14', 'Nebankovne financijske institucije', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('15', 'Banke u stečaju', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('20', 'Republika Hrvatska', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('21', 'Republički fondovi', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('22', 'Lokalna uprava i fondovi', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('30', 'Neprofitne organizacije', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('40', 'Stanovništvo', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('41', 'Obrtnici', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('92', 'Strane financijske institucije', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('94', 'Strane države i vlade', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('95', 'Strane privatne osobe', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('96', 'Strane fizičke osobe', NULL, SYSDATE)
+	INTO sifarnikSektora VALUES ('97', 'Strane neprofitne organizacije', NULL, SYSDATE)
+SELECT * FROM dual;
+	
+INSERT ALL
+	INTO sifarnikTipovaRacuna VALUES ('09', 'Poseban račun - gotovina', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('10', 'Banke', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('11', 'Žiro račun poslovnog subjekta za redovno poslovanje', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('13', 'Račun posebne namjene - izuzet iz blokade', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('14', 'Žiro račun dijela poslovnog subjekta', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('15', 'Drugi račun poslovnog subjekta određen zakonom', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('18', 'Računi proračuna', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('19', 'Račun za namiru banke ili druge financijske institucije', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('51', 'Redovni računi nerezidenata', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('53', 'Računi nerezidenata izuzeti iz blokade', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('55', 'Drugi računi nerezidenata', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('57', 'Obračunski račun za gotovinu klijenata u Zavodu', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('92', 'Obračunski račun za plaćanje klijenata putem NKS-a', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('93', 'Obračunski račun za unutarbankovna plaćanja u ZAP-u', NULL, SYSDATE)
+	INTO sifarnikTipovaRacuna VALUES ('94', 'Posebni računi 94', NULL, SYSDATE)
+SELECT * FROM dual;
+
+
+INSERT ALL
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('REDOB', 'Redovni račun obrtnika', '11', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('REDPR', 'Redovni račun pravnih osoba', '11', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('STCOB', 'Račun obrtnika u stečaju', '11', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('STCPR', 'Račun pravne osobe u stečaju', '11', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('BOPR', 'Račun posebne namjene pravne osobe - izuzet iz blokade', '13', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('BOOB', 'Račun za posebne namjene obrtnika - izuzet iz blokade', '13', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('DIOPR', 'Račun dijela pravne osobe', '14', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('DIOOB', 'Račun dijela obrtnika', '14', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('DRPR', 'Drugi račun pravne osobe za potrebe klijenta', '15', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('DROB', 'Drugi račun obrtnika za potrebe klijenta', '15', NULL, SYSDATE)
+	INTO sifarnikVrsteBankovnihRacuna VALUES ('PROR', 'Poslovni račun proračuna', '18', NULL, SYSDATE)
+SELECT * FROM dual;
+
+INSERT INTO sifarnikPeriodikaIzvoda VALUES (sifarnikPeriodikaIzvoda_SEQ.NEXTVAL, 'dnevno', NULL, SYSDATE);
+INSERT INTO sifarnikPeriodikaIzvoda VALUES (sifarnikPeriodikaIzvoda_SEQ.NEXTVAL, 'tjedno', NULL, SYSDATE);
+INSERT INTO sifarnikPeriodikaIzvoda VALUES (sifarnikPeriodikaIzvoda_SEQ.NEXTVAL, 'polumjesečno', NULL, SYSDATE);
+INSERT INTO sifarnikPeriodikaIzvoda VALUES (sifarnikPeriodikaIzvoda_SEQ.NEXTVAL, 'mjesečno', NULL, SYSDATE);
+INSERT INTO sifarnikPeriodikaIzvoda VALUES (sifarnikPeriodikaIzvoda_SEQ.NEXTVAL, 'godišnje', NULL, SYSDATE);
+
+INSERT INTO sifarnikKanalaIzvoda VALUES (sifarnikKanalaIzvoda_SEQ.NEXTVAL, 'E-mail', NULL, SYSDATE);
+INSERT INTO sifarnikKanalaIzvoda VALUES (sifarnikKanalaIzvoda_SEQ.NEXTVAL, 'Pošta', NULL, SYSDATE);
+INSERT INTO sifarnikKanalaIzvoda VALUES (sifarnikKanalaIzvoda_SEQ.NEXTVAL, 'ConnectDirect (SFTP)', NULL, SYSDATE);
+INSERT INTO sifarnikKanalaIzvoda VALUES (sifarnikKanalaIzvoda_SEQ.NEXTVAL, 'Swift', NULL, SYSDATE);
+INSERT INTO sifarnikKanalaIzvoda VALUES (sifarnikKanalaIzvoda_SEQ.NEXTVAL, 'Internet bankarstvo', NULL, SYSDATE);
+
+INSERT INTO sifarnikFormataIzvoda VALUES (sifarnikFormataIzvoda_SEQ.NEXTVAL, 'MN izvod', NULL, SYSDATE);
+INSERT INTO sifarnikFormataIzvoda VALUES (sifarnikFormataIzvoda_SEQ.NEXTVAL, 'PDF izvod', NULL, SYSDATE);
+INSERT INTO sifarnikFormataIzvoda VALUES (sifarnikFormataIzvoda_SEQ.NEXTVAL, 'TXT izvod', NULL, SYSDATE);
+INSERT INTO sifarnikFormataIzvoda VALUES (sifarnikFormataIzvoda_SEQ.NEXTVAL, 'MT940', NULL, SYSDATE);
+INSERT INTO sifarnikFormataIzvoda VALUES (sifarnikFormataIzvoda_SEQ.NEXTVAL, 'CAMT.053', NULL, SYSDATE);
+INSERT INTO sifarnikFormataIzvoda VALUES (sifarnikFormataIzvoda_SEQ.NEXTVAL, 'RTF izvod', NULL, SYSDATE);
+
+INSERT INTO sifarnikVrsteUsluga VALUES (sifarnikVrsteUsluga_SEQ.NEXTVAL, 'Internet bankarstvo', NULL, SYSDATE);
+INSERT INTO sifarnikVrsteUsluga VALUES (sifarnikVrsteUsluga_SEQ.NEXTVAL, 'Mobilno bankarstvo', NULL, SYSDATE);
+INSERT INTO sifarnikVrsteUsluga VALUES (sifarnikVrsteUsluga_SEQ.NEXTVAL, 'SMS usluga', NULL, SYSDATE);
+INSERT INTO sifarnikVrsteUsluga VALUES (sifarnikVrsteUsluga_SEQ.NEXTVAL, 'Debitna kartica', NULL, SYSDATE);
+
+INSERT INTO sifarnikIdentifikacijskihIsprava VALUES (sifarnikIdentifikacijskihIsprava_SEQ.NEXTVAL, 'Osobna iskaznica', NULL, SYSDATE);
+INSERT INTO sifarnikIdentifikacijskihIsprava VALUES (sifarnikIdentifikacijskihIsprava_SEQ.NEXTVAL, 'Putovnica', NULL, SYSDATE);
+INSERT INTO sifarnikIdentifikacijskihIsprava VALUES (sifarnikIdentifikacijskihIsprava_SEQ.NEXTVAL, 'Vozačka dozvola', NULL, SYSDATE);
+
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Afganistan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Albanija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Alžir', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Andora', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Angola', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Argentina', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Armenija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Aruba', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Australija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Austrija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Azerbajdžan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bahami', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bahrein', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bangladeš', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Barbados', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Belgija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Belize', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Benin', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bermudi', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Obala Bjelokosti', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bjelorusija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bocvana', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bolivija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bosna i Hercegovina', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Brazil', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Brunej', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Bugarska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Burkina Faso', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Burundi', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Butan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Cipar', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Crna Gora', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Čad', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Češka Republika', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Čile', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Danska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Dominikanska Republika', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Džibuti', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Egipat', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Ekvador', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Ekvatorska Gvineja', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Eritreja', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Estonija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Etiopija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Fidži', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Filipini', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Finska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Francuska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Gabon', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Gambija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Gana', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Grčka', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Gruzija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Gvajana', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Gvatemala', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Gvineja', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Gvineja Bisau', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Haiti', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Honduras', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Hong Kong', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Hrvatska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Indija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Indonezija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Irak', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Iran', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Irska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Island', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Istočni Timor', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Italija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Izrael', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Jamajka', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Japan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Jemen', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Jordan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Južnoafrička Republika', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kajmanski Otoci', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kambodža', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kamerun', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kanada', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Katar', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kazahstan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kenija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kina', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kirgistan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kiribati', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kolumbija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Komori', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kongo', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Južna Koreja', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sjeverna Koreja', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kosovo', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kostarika', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kuba', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kukovi Otoci', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Kuvajt', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Laos', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Lesoto', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Letonija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Libanon', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Liberija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Libija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Lihtenštajn', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Litva', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Luksemburg', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Madagaskar', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Mađarska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Makao', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sjeverna Makedonija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Malavi', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Maldivi', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Malezija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Mali', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Malta', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Marijanski Otoci', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Maršalovi Otoci', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Maroko', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Mauricijus', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Mauritanija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Meksiko', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Mianmar', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Mikronezija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Moldavija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Monako', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Mongolija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Mozambik', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Namibija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Nepal', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Niger', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Nigerija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Nikaragva', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Nizozemska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Norveška', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Novi Zeland', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Njemačka', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Oman', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Pakistan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Palau', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Panama', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Paragvaj', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Peru', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Poljska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Portoriko', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Portugal', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Ruanda', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Rumunjska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Rusija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Salvador', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'San Marino', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Saudijska Arabija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sejšeli', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Senegal', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sijera Leone', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Singapur', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sirija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sjedinjene Američke Države', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Slovačka', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Slovenija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Somalija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Srbija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Srednjoafrička Republika', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sudan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Surinam', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Svazi', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sveta Helena', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Sveta Lucija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Španjolska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Šri Lanka', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Švedska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Švicarska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Tadžikistan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Tajland', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Tajvan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Tanzanija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Togo', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Tonga', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Trinidad i Tobago', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Tunis', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Turkmenistan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Turska', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Uganda', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Ujedinjeni Arapski Emirati', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Ukrajina', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Urugvaj', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Uzbekistan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Vanuatu', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Vatikan', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Velika Britanija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Venezuela', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Vijetnam', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Zambija', NULL, SYSDATE);
+INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Zimbabve', NULL, SYSDATE);
+
+INSERT ALL
+	INTO sifarnikValuta VALUES ('036', 'AUD', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('124', 'CAD', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('203', 'CZK', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('208', 'DKK', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('348', 'HUF', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('392', 'JPY', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('578', 'NOK', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('752', 'SEK', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('756', 'CHF', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('826', 'GBP', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('840', 'USD', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('977', 'BAM', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('978', 'EUR', NULL, SYSDATE)
+	INTO sifarnikValuta VALUES ('985', 'PLN', NULL, SYSDATE)
+SELECT * FROM dual;
+
+COMMIT;
