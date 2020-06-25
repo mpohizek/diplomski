@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Monet</title>
 </head>
 <body>
 <p>Neispravni podaci za prijavu.</p>
