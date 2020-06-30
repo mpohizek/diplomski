@@ -10,8 +10,8 @@
 	<h1 align="center">Prijava</h1>
 	<form action="ServletPrijava" method="post">
 		<table align="center">
-			<tr><td>Korisničko ime: </td><td><input type="text" name="korisnickoIme"></td></tr>
-			<tr><td>Lozinka: </td><td><input type="text" name="lozinka"></td></tr>
+			<tr><td>Korisničko ime: </td><td><input type="text" name="korisnickoIme" size="30"></td></tr>
+			<tr><td>Lozinka: </td><td><input type="password" name="lozinka" size="31"></td></tr>
 			<tr><td colspan="2" align="right"><input type="submit" value="Prijava"></td></tr>
 		</table>
 	</form>

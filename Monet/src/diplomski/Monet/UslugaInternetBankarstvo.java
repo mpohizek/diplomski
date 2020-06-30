@@ -4,6 +4,8 @@ public class UslugaInternetBankarstvo {
 	private int uslugaID;
 	private int klijentID;
 	private int racunID;
+	private String iban;
+	
 	public int getUslugaID() {
 		return uslugaID;
 	}
@@ -21,5 +23,11 @@ public class UslugaInternetBankarstvo {
 	}
 	public void setRacunID(int racunID) {
 		this.racunID = racunID;
+	}
+	public String getIban() {
+		return iban;
+	}
+	public void setIban(String iban) {
+		this.iban = iban;
 	}
 }
