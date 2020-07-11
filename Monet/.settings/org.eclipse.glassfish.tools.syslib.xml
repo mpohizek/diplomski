@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <system-libraries>
+    <library path="D:/Program Files/GlassFish/glassfish/modules/javax.servlet-api.jar" source="D:/DiplomskiRad/Monet/"/>
     <library path="D:/Program Files/GlassFish/glassfish/modules/javax.servlet-api.jar" source="D:/Program Files/Java/src.zip"/>
 </system-libraries>

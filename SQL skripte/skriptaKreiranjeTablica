@@ -97,7 +97,7 @@ COMMENT ON TABLE korisnikUsluge IS 'Veza između konkretne usluge koju je klijen
 CREATE TABLE kreiraniIzvodStavke (
   kreiraniIzvodID           number(10) NOT NULL, 
   stavkaID                  number(10) NOT NULL, 
-  datumVrijemePromjeneSalda timestamp(0) NOT NULL, 
+  datumVrijemePromjeneSalda date NOT NULL, 
   sifraValute               varchar2(3) NOT NULL, 
   datumValute               date NOT NULL, 
   opis                      varchar2(255) NOT NULL, 
@@ -133,14 +133,14 @@ CREATE TABLE racunKreiraniIzvod (
   brojIzvoda            number(5) NOT NULL, 
   prethodnoStanje       float(10) NOT NULL, 
   zavrsnoStanje         float(10) NOT NULL, 
-  datumVrijemeKreiranja timestamp(0) NOT NULL, 
+  datumVrijemeKreiranja date NOT NULL, 
   PRIMARY KEY (kreiraniIzvodID));
 CREATE TABLE racunUgovoreniIzvod (
   racunUgovoreniIzvodID  number(10) NOT NULL, 
   racunID                number(10) NOT NULL, 
   sifraFormataIzvoda     number(10) NOT NULL, 
   sifraKanalaIzvoda      number(10) NOT NULL, 
-  datumVrijemeUgovaranja timestamp(0) NOT NULL, 
+  datumVrijemeUgovaranja date NOT NULL, 
   PRIMARY KEY (racunUgovoreniIzvodID));
 CREATE TABLE sifarnikAktivnosti (
   sifraAktivnosti  number(1) NOT NULL, 

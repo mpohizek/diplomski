@@ -63,7 +63,7 @@
 			</tr>
 				<c:forEach var="usluga" items="${aktivneUsluge}">
 					<tr>
-						<td><a href="UgovaranjeIzvoda.jsp"><c:out value="${usluga.getIban()}"></c:out></a></td>
+						<td><c:out value="${usluga.getIban()}"></c:out></td>
 					</tr>		
 				</c:forEach>
 		</table>

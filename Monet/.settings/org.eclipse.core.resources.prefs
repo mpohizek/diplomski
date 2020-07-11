@@ -1,6 +1,9 @@
 eclipse.preferences.version=1
 encoding//WebContent/NeispravnaPrijava.jsp=UTF-8
+encoding//WebContent/NeispravnoPopunjenZahtjevZaUgovaranjemIzvoda.jsp=UTF-8
+encoding//WebContent/ObavijestDupliciranjeIzvoda.jsp=UTF-8
 encoding//WebContent/PocetnaStranica.jsp=UTF-8
+encoding//WebContent/PotvrdaUgovaranjaIzvoda.jsp=UTF-8
 encoding//WebContent/PregledUgovorenihIzvoda.jsp=UTF-8
 encoding//WebContent/Prijava.jsp=UTF-8
 encoding//WebContent/UgovaranjeIzvoda.jsp=UTF-8
