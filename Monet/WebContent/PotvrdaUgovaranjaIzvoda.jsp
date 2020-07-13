@@ -19,6 +19,7 @@
 				<input type="hidden" id="odabraniRacun" name="odabraniRacun" value="${odabraniRacun}">
 				<input type="hidden" id="odabraniFormat" name="odabraniFormat" value="${odabraniFormat}">
 				<input type="hidden" id="odabraniKanal" name="odabraniKanal" value="${odabraniKanal}">
+				<input type="hidden" id="iban" name="iban" value="${iban}">
 				<input type="submit" value="Potvrđujem zahtjev">
 			</form>
 		</td>

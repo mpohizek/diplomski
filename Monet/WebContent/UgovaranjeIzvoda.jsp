@@ -44,6 +44,7 @@
 				<td colspan="2" align="right"><input type="submit" value="Ugovori"></td>
 			</tr>
 		</table>
+		<input type="hidden" id="iban" name="iban" value="${iban}">
 	</form>
 <script type="text/javascript">
 	var duljinaStringa = '${iban}'.length;
