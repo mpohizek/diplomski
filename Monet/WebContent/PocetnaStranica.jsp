@@ -10,7 +10,7 @@
 </head>
 <body>
 	<table align="center">
-		<tr><td style="padding:15px"><a href="PocetnaStranica.jsp">Otvoreni računi</a></td><td style="padding:15px"><a href="UgovaranjeIzvoda.jsp">Ugovaranje izvoda</a></td><td style="padding:15px"><a href="PregledUgovorenihIzvoda.jsp">Pregled ugovorenih izvoda</a></td><td style="padding:15px"><a href="PrikazKreiranihIzvoda.jsp">Prikaz kreiranih izvoda</a></td></tr>
+		<tr><td style="padding:15px"><a href="PocetnaStranica.jsp">Otvoreni računi</a></td><td style="padding:15px"><a href="UgovaranjeIzvoda.jsp">Ugovaranje izvoda</a></td><td style="padding:15px"><a href="PregledUgovorenihIzvoda.jsp">Pregled ugovorenih izvoda</a></td><td style="padding:15px"><a href="OdabirKreiranogIzvodaZaPrikaz.jsp">Prikaz kreiranih izvoda</a></td></tr>
 	</table>
 	<div style="width: 300px; float:left; height:235px; margin:10px">
 		<strong>Podaci o poduzeću:</strong>

@@ -1072,6 +1072,7 @@ INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Zambija', NULL, 
 INSERT INTO sifarnikDrzava VALUES (sifarnikDrzava_SEQ.NEXTVAL, 'Zimbabve', NULL, SYSDATE);
 
 INSERT ALL
+	INTO sifarnikValuta VALUES ('191', 'HRK', NULL, SYSDATE)
 	INTO sifarnikValuta VALUES ('036', 'AUD', NULL, SYSDATE)
 	INTO sifarnikValuta VALUES ('124', 'CAD', NULL, SYSDATE)
 	INTO sifarnikValuta VALUES ('203', 'CZK', NULL, SYSDATE)
