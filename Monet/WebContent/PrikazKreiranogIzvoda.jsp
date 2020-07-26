@@ -26,14 +26,14 @@
 				<td><b>Redni broj izvoda:</b></td><td>${kreiraniIzvod.getBrojIzvoda()}</td>
 			</tr>
 			<tr>
-				<td><b>Prethodno stanje:</b></td><td>${kreiraniIzvod.getPrethodnoStanje()}</td>
+				<td><b>Prethodno stanje:</b></td><td>${kreiraniIzvod.getPrethodnoStanje()} HRK</td>
 			</tr>
 			<tr>
 				<td><b>Završno stanje:</b></td><td>${kreiraniIzvod.getZavrsnoStanje()} HRK</td>
 			</tr>
 	</table>
 	<table border="1" align="center">
-		<tr bgcolor="rgb(187, 195, 227)">
+		<tr>
 			<td align="center"><b>Datum i vrijeme promjene salda</b></td>
 			<td align="center"><b>Opis</b></td>
 			<td align="center"><b>Uplata</b></td>

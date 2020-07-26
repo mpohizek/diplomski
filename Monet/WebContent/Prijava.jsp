@@ -11,7 +11,7 @@
 	<form action="ServletPrijava" method="post">
 		<table align="center">
 			<tr><td>Korisničko ime: </td><td><input type="text" name="korisnickoIme" size="30"></td></tr>
-			<tr><td>Lozinka: </td><td><input type="password" name="lozinka" size="31"></td></tr>
+			<tr><td>Lozinka: </td><td><input type="password" name="lozinka" size="30"></td></tr>
 			<tr><td colspan="2" align="right"><input type="submit" value="Prijava"></td></tr>
 		</table>
 	</form>

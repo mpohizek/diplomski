@@ -13,7 +13,7 @@
 	</table>
 	<h2 align="center">Pregled ugovorenih izvoda i pripadajućih troškova</h2>
 	<table border="1" align="center">
-			<tr bgcolor="rgb(187, 195, 227)">
+			<tr>
 				<td align="center"><b>Račun</b></td>
 				<td align="center"><b>Periodika izvoda</b></td>
 				<td align="center"><b>Format izvoda</b></td>

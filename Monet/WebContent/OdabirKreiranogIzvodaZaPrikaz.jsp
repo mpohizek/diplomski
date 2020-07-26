@@ -17,19 +17,19 @@
 		<table align="center">
 			<tr>
 				<td>Kreirani izvod: </td>
-				<td><select name="izvod" id="izvod">
-						<!--<c:forEach var="listaKreiranihIzvoda" items="${listaKreiranihIzvoda}">
-							<option value="${listaKreiranihIzvoda.getKreiraniIzvodID()}">${listaKreiranihIzvoda.getIban()}</option>
-						</c:forEach> -->
-					</select></td>
+				<td><select name="izvod" id="izvod"></select></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="right"><input type="submit" value="Odaberi"></td>
+				<td colspan="2" align="right"><input type="submit" id="submit" value="Odaberi"></td>
 			</tr>
 		</table>
 	</form>
 	<script type="text/javascript">
 		var podaci = '${kreiraniIzvodiSelect}';
+		if (podaci.length == 0) {
+			var gumb =  document.getElementById("submit");
+			gumb.disabled = true;
+		}
 		var splitted = podaci.split('**');
 		var opcijeZaOdabir = [];
 		for (var i = 0; i < splitted.length; i++) {
